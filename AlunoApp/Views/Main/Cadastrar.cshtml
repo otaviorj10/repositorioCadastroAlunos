@@ -1,0 +1,39 @@
+﻿@model AlunoModel;
+@*
+*@
+@{
+}
+
+
+@using (Html.BeginForm())
+{
+
+    <h4>Cadastro de Alunos</h4>
+    <hr />
+
+
+    @Html.LabelFor(p => p.Nome)
+    <br />
+    @Html.TextBoxFor(p => p.Nome)
+    <br />
+    @Html.LabelFor(p => p.Matricula)
+    <br />
+    @Html.TextBoxFor(p => p.Matricula)
+    <br />
+    @Html.LabelFor(p => p.DataDeNascimento)
+    <br />
+    <input type="date" asp-for="@Model.DataDeNascimento" />
+
+
+
+    @Html.ValidationSummary()
+
+    <br />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Cadastrar" class="btn btn-success" />
+        </div>
+    </div>
+
+
+}

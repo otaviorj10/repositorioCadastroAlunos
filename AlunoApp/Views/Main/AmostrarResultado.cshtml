@@ -1,0 +1,27 @@
+﻿@model AlunoModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@using (Html.BeginForm())
+{
+    <h3>Resultado da pesquisa do aluno</h3>
+    <hr />
+
+    <h4>Data de nascimento</h4>
+    @Model.DataDeNascimento.ToString("dd/MM/yyyy")
+    <br />
+    <h4>Nome</h4>
+    @Model.Nome
+    <br />
+    <h4>Matricula</h4>
+    @Model.Matricula
+
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+
+}
+
+
