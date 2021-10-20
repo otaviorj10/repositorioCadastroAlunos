@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\lonascimento\\Desktop\\revisao\\Nova pasta\\AlunoApp\\AlunoApp\\AlunoApp\\AlunoApp.csproj": {}
+    "C:\\Users\\VE\\OneDrive\\Área de Trabalho\\ProjetoDIVTECH\\AlunoApp\\AlunoApp.csproj": {}
   },
   "projects": {
-    "D:\\Users\\lonascimento\\Desktop\\revisao\\Nova pasta\\AlunoApp\\AlunoApp\\AlunoApp\\AlunoApp.csproj": {
+    "C:\\Users\\VE\\OneDrive\\Área de Trabalho\\ProjetoDIVTECH\\AlunoApp\\AlunoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\lonascimento\\Desktop\\revisao\\Nova pasta\\AlunoApp\\AlunoApp\\AlunoApp\\AlunoApp.csproj",
+        "projectUniqueName": "C:\\Users\\VE\\OneDrive\\Área de Trabalho\\ProjetoDIVTECH\\AlunoApp\\AlunoApp.csproj",
         "projectName": "AlunoApp",
-        "projectPath": "D:\\Users\\lonascimento\\Desktop\\revisao\\Nova pasta\\AlunoApp\\AlunoApp\\AlunoApp\\AlunoApp.csproj",
-        "packagesPath": "C:\\Users\\lonascimento\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\lonascimento\\Desktop\\revisao\\Nova pasta\\AlunoApp\\AlunoApp\\AlunoApp\\obj\\",
+        "projectPath": "C:\\Users\\VE\\OneDrive\\Área de Trabalho\\ProjetoDIVTECH\\AlunoApp\\AlunoApp.csproj",
+        "packagesPath": "C:\\Users\\VE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VE\\OneDrive\\Área de Trabalho\\ProjetoDIVTECH\\AlunoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lonascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
