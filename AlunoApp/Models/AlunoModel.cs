@@ -1,14 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Azure.Search.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
+using DataType = System.ComponentModel.DataAnnotations.DataType;
 
 namespace AlunoApp.Models
 {
     [DataContract]
+    [Index(nameof(Matricula),IsUnique=true)]
     public class AlunoModel
     {
         [Key]
@@ -24,7 +27,7 @@ namespace AlunoApp.Models
         [Display(Name = "Data de Nascimento : ")]
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        [Required]
+        [Required(ErrorMessage ="Não deve faltar a data")]
         public DateTime DataDeNascimento { get; set; }
 
 

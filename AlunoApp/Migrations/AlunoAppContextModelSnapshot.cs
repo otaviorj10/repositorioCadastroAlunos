@@ -35,9 +35,13 @@ namespace AlunoApp.Migrations
                         .HasColumnType("VARCHAR(4)");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("VARCHAR(100)");
 
                     b.HasKey("AlunoId");
+
+                    b.HasIndex("Matricula")
+                        .IsUnique();
 
                     b.ToTable("Aluno");
                 });

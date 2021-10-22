@@ -304,6 +304,14 @@ D:\Users\lonascimento\Desktop\revisao\Nova pasta\AlunoApp\AlunoApp\AlunoApp\obj\
 D:\Users\lonascimento\Desktop\revisao\Nova pasta\AlunoApp\AlunoApp\AlunoApp\obj\Debug\net5.0\ref\AlunoApp.dll
 D:\Users\lonascimento\Desktop\revisao\Nova pasta\AlunoApp\AlunoApp\AlunoApp\obj\Debug\net5.0\AlunoApp.pdb
 D:\Users\lonascimento\Desktop\revisao\Nova pasta\AlunoApp\AlunoApp\AlunoApp\obj\Debug\net5.0\AlunoApp.genruntimeconfig.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.csprojAssemblyReference.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.AssemblyInfoInputs.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.AssemblyInfo.cs
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.csproj.CoreCompileInputs.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.RazorAssemblyInfo.cache
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.RazorAssemblyInfo.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\appsettings.json
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\AlunoApp.exe
@@ -315,11 +323,10 @@ C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\AlunoApp.pdb
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\AlunoApp.Views.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\AlunoApp.Views.pdb
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\EntityFramework.SqlServer.dll
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\EntityFramework.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Humanizer.dll
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\System.Web.Providers.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Azure.Search.Common.dll
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Azure.Search.Service.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -339,6 +346,9 @@ C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.Spatial.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -424,14 +434,6 @@ C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.csprojAssemblyReference.cache
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.AssemblyInfoInputs.cache
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.AssemblyInfo.cs
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.csproj.CoreCompileInputs.cache
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.RazorAssemblyInfo.cache
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\AlunoApp.RazorAssemblyInfo.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\staticwebassets\AlunoApp.StaticWebAssets.Manifest.cache
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\staticwebassets\AlunoApp.StaticWebAssets.xml
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\scopedcss\bundle\AlunoApp.styles.css
@@ -444,7 +446,6 @@ C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Main\Consultar.cshtml.g.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Main\ExcluirAlunos.cshtml.g.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Main\Update.cshtml.g.cs
-C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Main\UpdateAlunos.cshtml.g.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\VE\OneDrive\Área de Trabalho\ProjetoDIVTECH\AlunoApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs

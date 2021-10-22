@@ -28,7 +28,6 @@ namespace AlunoApp
         {
             services.AddControllersWithViews();
             services.AddTransient<AlunoAppContext>();
-            services.AddTransient<ModelConsulta>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

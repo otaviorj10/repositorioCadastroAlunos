@@ -10,7 +10,6 @@ namespace AlunoApp.FileContext
     public class AlunoAppContext : DbContext
     {
         public DbSet<AlunoModel> Aluno { get; set; }
-        public DbSet<ModelConsulta> model { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -24,6 +23,10 @@ namespace AlunoApp.FileContext
             modelBuilder.Entity<AlunoModel>().Property(p => p.Nome).HasColumnType("VARCHAR(100)");
 
             modelBuilder.Entity<AlunoModel>().HasKey(p => p.AlunoId);
+
+            modelBuilder.Entity<AlunoModel>()
+                .HasIndex(x => x.Matricula)
+                .IsUnique();
 
             modelBuilder.Entity<AlunoModel>().Property(p => p.DataDeNascimento).HasColumnName("Data de Nascimento");
             modelBuilder.Entity<AlunoModel>().Property(p => p.DataDeNascimento).HasColumnType("DATE");
