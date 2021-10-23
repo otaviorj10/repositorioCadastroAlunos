@@ -27,8 +27,8 @@ namespace AlunoApp.Models
         [Display(Name = "Data de Nascimento : ")]
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        [Required(ErrorMessage ="Não deve faltar a data")]
-        public DateTime DataDeNascimento { get; set; }
+        [Required(ErrorMessage = "Não deve faltar a data")]
+        public DateTime DataDeNascimento { get; set; } 
 
 
         [Display(Name = "Matricula : ")]

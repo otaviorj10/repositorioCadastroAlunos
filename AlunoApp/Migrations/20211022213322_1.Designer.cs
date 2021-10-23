@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AlunoApp.Migrations
 {
     [DbContext(typeof(AlunoAppContext))]
-    [Migration("20211022134502_10")]
-    partial class _10
+    [Migration("20211022213322_1")]
+    partial class _1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

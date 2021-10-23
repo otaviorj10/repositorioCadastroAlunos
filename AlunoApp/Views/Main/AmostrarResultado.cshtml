@@ -12,22 +12,17 @@
     <hr />
 
     <h4>Data de nascimento</h4>
-    @{
-        if (Model.DataDeNascimento.Equals(true))
-        {
             @Model.DataDeNascimento.ToString("dd/MM/yyyy")
 
-        }
-    }
+        <br />
+        <h4>Nome</h4>
+        @Model.Nome
+        <br />
+        <h4>Matricula</h4>
+        @Model.Matricula
     <br />
-    <h4>Nome</h4>
-    @Model.Nome
-    <br />
-    <h4>Matricula</h4>
-    @Model.Matricula
 
-
-    <input type="submit" class=" btn btn-success" value="Voltar" asp-controller="Main" asp-action="Cadastrar" />
+        <input type="submit" class=" btn btn-success" value="Voltar" asp-controller="Main" asp-action="Cadastrar" />
 
 }
 

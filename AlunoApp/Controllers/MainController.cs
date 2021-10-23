@@ -1,6 +1,7 @@
 ﻿using AlunoApp.FileContext;
 using AlunoApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -26,15 +27,23 @@ namespace AlunoApp.Controllers
 
 
         [HttpPost]
-
         public IActionResult Cadastrar(AlunoModel aluno)
         {
             if (ModelState.IsValid)
             {
+                try
+                {
+
                 contexto.Add(aluno);
                 contexto.SaveChanges();
+                } catch(Exception e ){
+                    return RedirectToAction("ListaAlunos");
+
+                }
+
 
             }
+           
             return RedirectToAction("Consultar");
 
 
@@ -53,8 +62,18 @@ namespace AlunoApp.Controllers
         {
 
 
-            AlunoModel aluno = contexto.Aluno.Find(id);
-            return RedirectToAction("AmostrarResultado", aluno);
+            AlunoModel aluno = new();
+            if( id==0)
+            {
+                return View();
+            } else
+            {
+
+                aluno = contexto.Aluno.Find(id);
+                return RedirectToAction("AmostrarResultado", aluno);
+            }
+
+
 
 
 
@@ -78,6 +97,8 @@ namespace AlunoApp.Controllers
         {
             AlunoModel aluno = contexto.Aluno.Find(id);
 
+
+
             if ((contexto.Aluno.Find(id) == null))
             {
                 RedirectToAction("Consultar");
@@ -85,12 +106,16 @@ namespace AlunoApp.Controllers
 
             } else 
             {
+               
                 contexto.Remove(aluno);
                 contexto.SaveChanges();
                 return RedirectToAction("Cadastrar");
+                {
+                    return RedirectToAction("Consultar");
+                }
+
 
             }
-
 
             return View();
             
@@ -111,6 +136,9 @@ namespace AlunoApp.Controllers
         public IActionResult Update(AlunoModel aluno, int? id)
         {
 
+            try
+            {
+
                 var alunos = contexto.Aluno.Where(p => p.AlunoId == aluno.AlunoId).FirstOrDefault();
                 AlunoModel alun = new();
                 alunos.DataDeNascimento = aluno.DataDeNascimento;
@@ -118,10 +146,26 @@ namespace AlunoApp.Controllers
                 alunos.Nome = aluno.Nome;
                 contexto.Update(alunos);
                 contexto.SaveChanges();
+            }catch (Exception e)
+            {
+                return RedirectToAction("Consultar");
+            }
+
 
             return RedirectToAction("Consultar");
         }
 
+
+
+
+
+
+        public IActionResult ListaAlunos ( AlunoModel alunoModel)
+        {
+
+            var alunos = contexto.Aluno.ToList();
+            return View(alunos);
+        }
 
 
 

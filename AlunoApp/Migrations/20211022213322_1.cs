@@ -1,9 +1,10 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+using System;
+
 
 namespace AlunoApp.Migrations
 {
-    public partial class _10 : Migration
+    public partial class _1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
